@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentBackgroundColor">
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:text="Email Container"
+        android:textSize="18sp"
+        android:layout_margin="4sp"
+        android:layout_marginBottom="8sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:text="Name Container"
+        android:textSize="18sp"
+        android:layout_margin="4sp"
+        android:layout_marginBottom="8sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/emailEditTextUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email_address"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/nameEditTextUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_name"
+        tools:ignore="Autofill"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"/>
+
+</LinearLayout>
